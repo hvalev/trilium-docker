@@ -10,11 +10,22 @@
 ## How to run it
 Docker run:
 ```
-
+docker run -d -p 8066:8080 -e TRILIUM_DATA_DIR=/data -v ~/trilium:/data --name trilium hvalev/trilium:latest
 ```
 docker-compose:
 ```
-
+version: "3.8"
+services:
+  trilium:
+    image: hvalev/trilium:latest
+    container_name: trilium
+    environment:
+      - TRILIUM_DATA_DIR=/data
+    ports:
+      - 8066:8080
+    volumes:
+      - ~/trilium:/data
+    restart: always
 ```
 
 ## Acknowledgements
