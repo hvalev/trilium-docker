@@ -10,7 +10,7 @@ RUN apk update && \
     git clone --depth 1 --branch=${TRILIUM_VERSION} https://github.com/zadam/trilium/ /usr/src/app && \
     apk del .build-dependencies
 
-COPY package.json package.json
+COPY server-package.json package.json
 
 # Install app dependencies
 RUN set -x \
