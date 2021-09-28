@@ -30,5 +30,5 @@ services:
 
 ## Acknowledgements
 Naturally to [zadam](https://github.com/zadam) for creating [Trilium](https://github.com/zadam/trilium).
-See [Licence](https://github.com/zadam/trilium/blob/master/LICENSE)
+See [Licence](https://github.com/zadam/trilium/blob/master/LICENSE).
 
