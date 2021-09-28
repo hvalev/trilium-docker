@@ -7,7 +7,7 @@ RUN apk update && \
     apk add --no-cache --virtual git && \
     git clone --depth 1 --branch=${TRILIUM_VERSION} https://github.com/zadam/trilium/ . 
 
-COPY server-package.json package.json
+COPY package.json package.json
 
 # Install app dependencies
 RUN set -x \
