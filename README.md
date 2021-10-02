@@ -1,6 +1,6 @@
 # Trilium container for Docker
 [![build](https://github.com/hvalev/trilium-docker/actions/workflows/build.yml/badge.svg)](https://github.com/hvalev/trilium-docker/actions/workflows/build.yml)
-![R%20version](https://img.shields.io/badge/trilium%20version-0.47.5-green)
+![R%20version](https://img.shields.io/badge/trilium%20version-0.47.7-green)
 ![Docker Pulls](https://img.shields.io/docker/pulls/hvalev/trilium)
 ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/hvalev/trilium)
 
