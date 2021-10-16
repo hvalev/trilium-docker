@@ -1,4 +1,4 @@
-FROM node:14.17.6-alpine
+FROM node:16.11.1-alpine
 ENV TRILIUM_VERSION v0.47.8
 
 # Create app directory
