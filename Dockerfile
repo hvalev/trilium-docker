@@ -1,5 +1,5 @@
 FROM node:14.17.6-alpine
-ENV TRILIUM_VERSION v0.47.8
+ENV TRILIUM_VERSION v0.48.3
 
 # Create app directory
 WORKDIR /usr/src/app
