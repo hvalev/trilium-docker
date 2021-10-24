@@ -7,6 +7,8 @@
 ## Motivation
 [Trilium](https://github.com/zadam/trilium) is an excellent note taking application with focus on building large personal knowledge bases. Unfortunately, Trilium is not officially available as a docker container for ARM architectures. Although docker images that offer ARM builds exist, they are rarely updated. Hence, the main point of this repository is to 1)  have a repository which is regularly updated and 2) transparent in what it contains (no crypto miners). If the original repository ever decides to support ARM, this repository will be archived. If you want more information on Trilium and what you can do with it, check out the [original repository](https://github.com/zadam/trilium).
 
+***Since the original repository now supports ARM builds, this repository has been archived***.
+
 ## How to run it
 Docker run:
 ```
